@@ -1,6 +1,6 @@
 import React from "react";
 import Testimonial from './components/Testimonial.jsx';
-import reviews from '../data.jsx';
+import reviews from './data.js';
 
 const App = () => {
   return <div>
