@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
 
 export default function Card(props) {
@@ -8,7 +7,7 @@ export default function Card(props) {
     return (
         <div className='flex flex-col md:relative'>
             <div className='absolute top-[-7rem] z-[10] mx-auto'>
-                <img className='aspect-square rounded-full w-[140px] h-[140px] z-[25]' src={reviews.image} alt="" />
+                <img className='aspect-square rounded-full w-[140px] h-[140px] z-[25]' src={reviews.image} alt="img" />
                 <div className='w-[140px] h-[140px] bg-violet-500 rounded-full absolute top-[-6px] z-[-10] left-[10px]'></div>
             </div>
             <div className='text-center mt-7'>
